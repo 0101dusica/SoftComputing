@@ -1,14 +1,12 @@
 import os
 import csv
-from PIL import Image
 
+# Load all images with the .png extension from the specified dataset folder
 def load_images_from_folder(folder):
-    image_names = []
-    for filename in os.listdir(folder):
-        if filename.endswith(".png"):
-            image_names.append(filename)
-    return image_names
+    return [filename for filename in os.listdir(folder) if filename.endswith(".png")]
 
+# Load data from a CSV file as a dictionary with picture names as keys and object counts as values
+# Convert all image file extensions from .jpg to .png in the picture names
 def load_csv_as_dict(csv_file_path):
     picture_count_dict = {}
     with open(csv_file_path, mode='r') as csvfile:
