@@ -1,0 +1,6 @@
+Skup podataka za problem brojanja kamiona se nalazi u folderu data. 
+Potrebno je prebrojati koliko kamiona se nalazi na svakom od prisutnih videa. 
+U fajlu counts.csv je napisan tačan broj kamiona za svaki video u skupu podataka (odnosno, tačno rešenje za svaki video). 
+Potrebno je kreirati rešenje koje će ostvariti najmanji mean absolute error (MAE). 
+Pod kreiranim rešenjem se podrazumeva kod koji će izvršavati iste operacije nad svakim videom (npr. nije dozvoljeno različito pretprocesiranje pojedinačnih videa). 
+Za najveći broj poena potrebno je ostvariti MAE < 1.1. Maksimalno dozvoljeno vreme izvršavanja rešenja na platformi je 10 minuta.
