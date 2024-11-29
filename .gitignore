@@ -99,11 +99,7 @@ dmypy.json
 *.prof
 
 # Local data and result files
-result.txt
-data/
+results.txt
 
 # VS Code settings
 .vscode/
-
-# Ignore all .txt files
-*.txt
